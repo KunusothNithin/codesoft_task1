@@ -1,0 +1,48 @@
+body {
+    display: grid;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.container {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 233px;
+}
+
+.display {
+    padding: 5px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 40px;
+    height: 40px;
+    overflow: hidden;
+    text-align: right;
+}
+
+.display p {
+    margin: 0;
+    padding: 0;
+}
+
+.btn-container {
+    margin: 3px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.button {
+    margin: 2px;
+    height: 45px;
+    width: 45px;
+    border: none;
+    border-radius: 5px;
+    background-color: skyblue;
+    box-shadow: 10px;
+}
